@@ -11,10 +11,10 @@
 #
 
 # 修改openwrt登陆地址,把下面的 192.168.10.1 修改成你想要的就可以了
-sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名字，把 DracoOpenWrt 修改你喜欢的就行（不能纯数字或者使用中文）
-sed -i 's/OpenWrt/DracoOpenWrt/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Router/g' package/base-files/files/bin/config_generate
 
 # Modify default theme（FROM uci-theme-bootstrap CHANGE TO luci-theme-argon）
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
