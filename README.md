@@ -15,7 +15,6 @@ PS: 部分功能未启用，有需要请自行 fork 定制
 - 密码:`password`
 - WI-FI:`OpenWrt`
 - WI-FI密码: `none`
-- 北京时间每天 `0:00` 定时编译，`Release` 中只保留最新版本
 
 ## 空间不足？
 
